@@ -36,6 +36,21 @@ func main() {
 		biarlah = 78
 		naomi   = 7.8
 	)
+	var charArray [5]int
+
+	charArray[0] = 4
+	charArray[1] = 7
+	charArray[2] = 9
+	charArray[3] = 2
+	charArray[4] = 7
+
+	var setIndex = [4]int{
+		1,
+		2,
+		3,
+		4,
+	}
+	fmt.Println(setIndex[0])
 	fmt.Println(halo, biarlah, naomi)
 	fmt.Println(lastname, past, fori)
 	var lint float32 = 10.76
@@ -56,5 +71,9 @@ func main() {
 	fmt.Println(full)
 
 	fmt.Println(lgiut)
+
+	fmt.Println("halo indonesia")
+
+	fmt.Println(charArray[4])
 
 }
